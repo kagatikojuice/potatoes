@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Information</title>
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+	</head>
+	<body>
+		<div class="container rounded mt-2">
+			<table id="example" class="display table table-striped" style="width:100%">
+				<thead>
+					<tr>
+						<th>First Name</th>
+						<th>Second Name</th>
+						<th>Username</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Tiger Nixon</td>
+						<td>System Architect</td>
+						<td>Edinburgh</td>
+						<td>61</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script>
+			$(document).ready(function() {
+			$('#example').DataTable();
+			} );
+		</script>
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+	</body>
+</html>
